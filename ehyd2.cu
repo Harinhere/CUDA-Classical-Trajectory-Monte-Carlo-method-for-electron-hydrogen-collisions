@@ -1,7 +1,6 @@
 //Author: Harindranath Ambalampitiya, PhD(Theoretical atomic and molecular physics)
 //GPU accelerated Classical Trajectory Monte Carlo Methods
-//Positronium collision with proton/antiproton
-
+//electron-collision with hydrogen
 #include <iostream>
 #include<fstream>
 #include<math.h>
