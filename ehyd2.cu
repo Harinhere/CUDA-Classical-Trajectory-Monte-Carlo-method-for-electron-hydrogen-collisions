@@ -387,11 +387,11 @@ int main()
 	fstream pstics;
 	pstics.open("ticscu.txt",ios::out);
 	auto start = high_resolution_clock::now();
-	// initial Positronium n,l states
+	// initial hydrogen n,l states
 	int nps=3,lps=0;
 	//Threshold energy for ionization (a.u)
 	float eth=.5/powf((float)nps,2);
-	//initial Positronium Center-of-mass energy
+	//initial electron energy
 	float Ev;
 	for(int i=0;i<50;i++)
 	{
